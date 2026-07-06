@@ -1,75 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   line-height: 18px;
   background-color: #ffffff;
 }
+
 .element {
+  border: 1px solid transparent;
   background-image: url('img/background_dandelions.jpg'); 
-  background-size: cover;
-  background-position: center;
+  background-size: 790px 697px;
+  background-position: 0 0;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  max-width: 1085px;
   align-items: center;
   justify-content: center;
   position: relative;
-  text-align: center;
+  margin: 0 auto;
 }
+
 .title {
   padding: 100px;
   margin: 0px;
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
-  margin: 0;
+  margin-top: 220px;
+  margin-bottom: 110px;
   text-align: center;
   color: #515076;
 } 
+
 .subject {
   font-size: 20px;
   font-weight: bold;
   line-height: 27px;
-  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: left;
   color: #515076;
 }
+
+.product-item {
+  width: 340px;
+  height: 573px;
+  border: 1px solid #f3f3f6;
+  background-color: #F7F7FA;
+  padding: 25px;
+}
+
+.product-image {
+  margin-bottom: 30px;
+}
+
 .compound {
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
   text-align: left;
-  padding: 0;
-  margin: 0;
+  margin-left: 15px;
+  margin-top: 5px;
+  margin-bottom: 30px;
   text-align: left;
   color: #515076;
 } 
+
 .price {
   font-size: 20px;
   font-weight: bold;
   line-height: 24px;
-  margin: 0;
   color: #515076;
 }
+
 .total-price {
   font-size: 20px;
   font-weight: normal;
   line-height: 24px;
-  margin: 0;
+  margin-left: 140px;
   color: #515076;
 }
+
 .desc {
   font-size: 12px;
   font-weight: normal;
   line-height: 24px;
-  margin: 0;
   color: #A5A3B9;
 }
+
 .products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 116px;
   color: #515076;
   list-style: none;
-  padding: 50px;
-  margin-top: 50px;
 }
+
 .main-text {
+  margin-bottom: 10px;
   color: #515076;
 }
