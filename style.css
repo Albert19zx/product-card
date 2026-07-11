@@ -13,22 +13,18 @@ body {
   background-color: #ffffff;
 }
 
-.element {
+.hero {
   border: 1px solid transparent;
   background-image: url('img/background_dandelions.jpg'); 
   background-size: 790px 697px;
   background-position: 0 0;
   background-repeat: no-repeat;
   max-width: 1085px;
-  align-items: center;
-  justify-content: center;
   position: relative;
   margin: 0 auto;
 }
 
-.title {
-  padding: 100px;
-  margin: 0px;
+.hero__title {
   font-size: 70px;
   font-weight: 400;
   line-height: 78px;
@@ -38,7 +34,7 @@ body {
   color: #515076;
 } 
 
-.subject {
+.product__title {
   font-size: 20px;
   font-weight: bold;
   line-height: 27px;
@@ -48,7 +44,7 @@ body {
   color: #515076;
 }
 
-.product-item {
+.product {
   width: 340px;
   height: 573px;
   border: 1px solid #f3f3f6;
@@ -56,57 +52,65 @@ body {
   padding: 25px;
 }
 
-.product-image {
+.product__image {
   margin-bottom: 30px;
 }
 
-.compound {
+.product__composition-list {
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
   text-align: left;
-  margin-left: 15px;
-  margin-top: 5px;
+  padding-left: 15px;
   margin-bottom: 30px;
-  text-align: left;
   color: #515076;
 } 
 
-.price {
+.product__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: auto;
+}
+
+.product__price-label {
   font-size: 20px;
   font-weight: bold;
   line-height: 24px;
   color: #515076;
 }
 
-.total-price {
+.product__price-value {
   font-size: 20px;
+  white-space: nowrap;
   font-weight: normal;
   line-height: 24px;
-  margin-left: 140px;
   color: #515076;
 }
 
-.desc {
+.product__type {
   font-size: 12px;
   font-weight: normal;
   line-height: 24px;
   color: #A5A3B9;
 }
 
-.products-list {
+.products {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 116px;
+}
+
+.products__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  max-width: 1110px;
-  margin: 0 auto;
-  margin-bottom: 116px;
   color: #515076;
   list-style: none;
 }
 
-.main-text {
+.product__description {
   margin-bottom: 10px;
   color: #515076;
 }
