@@ -35,8 +35,6 @@ function outputConsoleLog(message) {
   console.log(message);
 }
 
-outputConsoleLog('ДЗ №4');
-
 document.addEventListener('DOMContentLoaded', function() {
 
   const title = document.querySelector('h1');
