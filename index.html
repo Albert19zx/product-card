@@ -9,10 +9,17 @@
 </head>
 <body>
   <section class="hero">
+  <button id="color-toggle-btn" class="toggle-btn">Нажми, чтобы поменять цвет</button>
   <h1 class="hero__title">Выбери свой продукт</h1>
   </section>
   <section class="products">
   <ul class="products__list">
+    <div class="buttons-container">
+      <button id="change-color-all-cards">Сменить цвет всех карточек</button>
+      <button id="change-color-first-card">Сменить цвет первой карточки</button>
+      <button id="open-google">Открыть страницу Google.com</button>
+      <button id="output-console-log">Вывести сообщение в консоль лог</button>
+    </div>
     <li class="product">
       <img class="product__image" src="img/moisturizing_mousse.jpg" alt="Товар увлажняющий мусс" width="290" height="245">
       <p class="product__type">ДЛЯ НОРМАЛЬНОЙ КОЖИ</p>
@@ -95,5 +102,6 @@
     </li>
   </ul>
   </section>
+  <script src="main.js"></script>
 </body>
 </html>
